@@ -1,0 +1,25 @@
+.headerMenu{
+    width: 100%;
+    height:50px;
+    background-color: yellow;
+    
+}
+ul{
+    padding: 0;
+    width: 75vw;
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 20%;
+    justify-content: space-between;
+
+}
+li{
+    list-style-type: none;
+}
+.logo{
+    background-color: chartreuse;
+    
+
+
+}

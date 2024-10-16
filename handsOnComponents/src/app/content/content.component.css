@@ -1,0 +1,15 @@
+.content{
+    height: 500px;
+    width:100%;
+    background-color: aqua;
+    & p{
+        margin: 0;
+    }
+    
+    
+}
+.bikerimage{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
