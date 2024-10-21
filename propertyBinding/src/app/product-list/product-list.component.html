@@ -1,0 +1,8 @@
+<img [src]="product.Ipath">
+<p>Name :{{product.name}}</p>
+<p>Price: {{'$' + product.price}}</p>
+<p>Color :{{ product.color}}</p>
+<p>Discount price:{{ getDiscountPrice().toFixed(2)}}</p>
+<p> Stocks :{{product.instock >   0?'only'+product.instock+ 'items left':'not in stock'}}</p>
+<button [disabled]="!(product.instock > 0)">Buy now</button>
+<input value="{{age}}"> 

@@ -1,0 +1,15 @@
+div{
+    margin: 10px 0px;
+    padding: 10px 20px;
+    text-align:center;
+}
+p{
+    font-size:14px;
+}
+.close{
+    float:right;
+    margin-top: 0px;
+}
+.alert{
+    background-color: red;
+}

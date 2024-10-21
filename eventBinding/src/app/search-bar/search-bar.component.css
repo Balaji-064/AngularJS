@@ -1,0 +1,11 @@
+.searchBar{
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+input{
+    width: 240px;
+    height: 30px;
+    margin-left: 20px;
+    border: 2px solid black;
+
+}

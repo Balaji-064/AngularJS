@@ -1,0 +1,8 @@
+<div class="home">
+  <input type="text " name="email" [formControl]="email">
+  <p class="red" *ngIf="email.errors?.['minlength']">Minimum 2 characters should be there</p>
+  <p class="red" *ngIf="email.errors?.['maxlength']"> max 10 character</p>
+  <p class="red" *ngIf="email.errors?.['required']"> email is requried</p>
+   <button (click)="showEmailDetails()">Click me</button>
+
+</div>
